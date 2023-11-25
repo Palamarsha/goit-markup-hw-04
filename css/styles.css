@@ -225,11 +225,6 @@ img{
  url(../images/hero.jpg);
   background-size: cover;
 
- 
-  
-    
-    
-
 }
 
 .main-page-container{
@@ -302,10 +297,25 @@ align-items: center;
   .advantages{
     padding-top: 120px;
     padding-bottom: 120px;
+  }
         
-
+ .menu-advantages-icon {
+    border-radius: 4px;
+     border: 1px solid  #8E8F99;
+    width: 264px;
+        height: 112px;
+   
+   
+   
+       
 
   }
+
+  .icon-link {
+ 
+    stroke: #2E2F42;
+  }
+
   .advantages-container{
   
     padding: 0 15px 0 15px;
