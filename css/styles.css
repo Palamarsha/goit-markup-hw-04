@@ -305,6 +305,8 @@ align-items: center;
      width: 264px;
      height: 112px;
      margin-top: 8px;
+     /* display: flex;
+    justify-content: center; */
      
      
    
@@ -373,6 +375,18 @@ align-items: center;
     text-decoration: none;
 }
 
+.web-icons{
+display: flex;
+
+}
+
+.app-icons{
+    width: 40px;
+    height: 40px;
+    fill:  #4D5AE5;
+    border-radius: 50%;
+
+}
 
 .team-list{
  background: #F4F4FD;
