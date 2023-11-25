@@ -300,10 +300,13 @@ align-items: center;
   }
         
  .menu-advantages-icon {
-    border-radius: 4px;
+     border-radius: 4px;
      border: 1px solid  #8E8F99;
-    width: 264px;
-        height: 112px;
+     width: 264px;
+     height: 112px;
+     margin-top: 8px;
+     
+     
    
    
    
@@ -312,8 +315,8 @@ align-items: center;
   }
 
   .icon-link {
+
  
-    stroke: #2E2F42;
   }
 
   .advantages-container{
