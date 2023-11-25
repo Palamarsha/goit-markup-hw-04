@@ -46,6 +46,7 @@ img{
 .menu-item{
  padding-top: 24px;
  padding-bottom: 24px;
+ position: relative;
  
 }
 
@@ -101,12 +102,10 @@ img{
 
 .head-page{
  
- border-bottom: 1px solid #e7e9fc
-
+ border-bottom: 1px solid #e7e9fc;
+ 
    
 }
-
-
 
 
 .logo-link {
@@ -162,6 +161,20 @@ img{
 
 }
 
+.menu-link-first::after {
+    content: "";
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    background: #404BBF;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  
+
+}
+
 .menu-link:hover,
 .menu-link:focus{
     color: #404BBF;
@@ -202,9 +215,18 @@ img{
 }
 
 .main-page{
-    background:  #2E2F42;
-    padding-top: 188px;
-    padding-bottom: 188px;
+
+ background: #2E2F42;
+ padding-top: 188px;
+ padding-bottom: 188px;
+ background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+ url(../images/hero.jpg);
+  background-size: cover;
+
+ 
+  
     
     
 
