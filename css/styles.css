@@ -46,7 +46,7 @@ img{
 .menu-item{
  padding-top: 24px;
  padding-bottom: 24px;
- position: relative;
+
  
 }
 
@@ -70,6 +70,7 @@ img{
 .head-navigation-container {
  display: flex;
   align-items: center;
+  
     
     
 
@@ -103,7 +104,9 @@ img{
 .head-page{
  
  border-bottom: 1px solid #e7e9fc;
- 
+ box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 
+ 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+ 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
    
 }
 
@@ -158,6 +161,7 @@ img{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -169,8 +173,9 @@ img{
     background: #404BBF;
     display: block;
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     left: 0;
+    position: relative;
   
 
 }
@@ -201,6 +206,7 @@ img{
     letter-spacing: 0.02em;
     display: flex;
     padding: 24px 0 24px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-contact-link:hover,
