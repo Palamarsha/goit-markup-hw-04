@@ -728,7 +728,7 @@ margin-bottom: 16px;
 text-decoration: none;
 }
 
-.footer-icons{
+.last-page{
     display: flex;
     align-items: baseline;
     margin-right: 120px
@@ -774,11 +774,6 @@ margin-bottom: 16px;
 .last-page-links:hover,
 .last-page-links:focus {
     background-color: #31d0aa;
-}
-
-.footer-icons{
-    display: block;
-    margin-left: 120px ;
 }
 
 .last-links{
