@@ -780,3 +780,17 @@ margin-bottom: 16px;
 .last-links{
     fill: #F4F4FD;
 }
+
+.last-page-container{
+    display: flex;
+    align-items: baseline;
+
+}
+
+.footer--icons{
+    
+}
+
+.footer-logo{
+    margin-right: 120px;
+}
