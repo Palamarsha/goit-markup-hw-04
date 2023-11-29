@@ -44,8 +44,7 @@ img{
 
 
 .menu-item{
- padding-top: 24px;
- padding-bottom: 24px;
+ 
  position: relative;
 
  
@@ -155,6 +154,9 @@ img{
 }
 
 .menu-link {
+ padding-bottom: 24px;
+ padding-top: 24px;
+ display: block;
     color:#2E2F42;
     font-family: Roboto;
     font-size: 16px;
